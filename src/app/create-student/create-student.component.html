@@ -30,6 +30,7 @@
         name="emailId"
         [ngModel]="student?.emailId"
         #emailId="ngModel"
+        placeholder="Email Id"
         required
       />
       <mat-error *ngIf="emailId.invalid">Please Enter a EmailID</mat-error>
