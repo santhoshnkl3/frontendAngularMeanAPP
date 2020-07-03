@@ -17,7 +17,7 @@ const routes: Routes = [
     canActivate: [AuthGuard],
   },
   {
-    path: "edit",
+    path: "edit/:id",
     component: CreateStudentComponent,
     canActivate: [AuthGuard],
   },
